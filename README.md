@@ -77,3 +77,35 @@ vancouver_trees %>% filter(genus_name == "ACER") %>%
 #> #   height_range_id <dbl>, diameter <chr>, curb <chr>, date_planted <date>,
 #> #   longitude <dbl>, latitude <dbl>
 ```
+
+## License
+
+`datateachr`’s data is curated from multiple sources with many of the
+datasets aquired from the City of Vancouver Open Data Portal that uses
+the Open Government Licence - Vancouver license. See their [terms of
+use](https://opendata.vancouver.ca/pages/licence/).
+
+## Citation
+
+Run this command to get info on how to cite this package.
+
+``` r
+citation("datateachr")
+#> 
+#> To cite package 'datateachr' in publications use:
+#> 
+#>   Hayley Boyce and Jordan Bourak (2020). datateachr: Data collected to
+#>   use for teaching at the University of British Columbia. R package
+#>   version 0.0.0.1. https://github.com/UBC-MDS/datateachr
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Manual{,
+#>     title = {datateachr: Data collected to use for teaching at the University of British
+#> Columbia},
+#>     author = {Hayley Boyce and Jordan Bourak},
+#>     year = {2020},
+#>     note = {R package version 0.0.0.1},
+#>     url = {https://github.com/UBC-MDS/datateachr},
+#>   }
+```
