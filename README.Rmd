@@ -69,3 +69,17 @@ library(datateachr)
 vancouver_trees %>% filter(genus_name == "ACER") %>% 
   arrange(desc(diameter)) %>% head()
 ```
+
+
+## License
+
+`datateachr`'s data is curated from multiple sources with many of the datasets aquired from the City of Vancouver Open Data Portal that uses the Open Government Licence - Vancouver license. See their [terms of use](https://opendata.vancouver.ca/pages/licence/). 
+
+## Citation
+
+Run this command to get info on how to cite this package.
+
+```{r warning = FALSE}
+citation("datateachr")
+```
+
