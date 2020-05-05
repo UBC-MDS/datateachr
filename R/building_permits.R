@@ -1,0 +1,28 @@
+#' Vancouver Building Permits
+#' This is data that the city of Vancouver has released containing information of building permits issued by the City of Vancouver, since 2017.
+#'
+#' @source <https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/>, downloaded 2020-05-05
+#' @format A data frame with columns:
+#' \describe{
+#'  \item{permit_number}{Unique permit number generated at application date; there may be multiple permits for one project site}
+#'  \item{issue_date}{Date when the specified permit is issued.}
+#'  \item{project_value}{Estimated construction value at time of original permit issuance. For projects with multiple buildings on one site, the value for individual buildings may have a $0 value.}
+#'  \item{type_of_work}{Type of work (reason for permit).}
+#'  \item{address}{Specific property address.}
+#'  \item{project_description}{Scope of work (not included in entries prior to 2018).}
+#'  \item{building_contractor}{Contractor information, if known, as provided by applicant.}
+#'  \item{building_contractor_address}{Contractor address, if known, as provided by applicant.}
+#'  \item{applicant}{Applicant for permit. Applicant may be property owner or official agent for owner and is often the design professional or their firm.}
+#'  \item{applicant_address}{Contact information for applicant as provided on permit application.}
+#'  \item{property_use}{General use of property; where multiple uses apply, only the most relevant use is shown.}
+#'  \item{specific_use_category}{Sub categories of property use (as defined in Schedule 2 of the Zoning and Development By-Law.)}
+#'  \item{year}{Year.}
+#'  \item{bi_id}{Key field added during import to data warehouse.}
+#' }
+#' @examples
+#' building_permits
+#'
+#' head(building_permits)
+#' summary(building_permits)
+
+"building_permits"
