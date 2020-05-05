@@ -8,7 +8,7 @@ Authors@R: c(person(given = "Hayley",
         person(given = "Jordan",
            family = "Bourak",
            role = c("aut", "ctb"),
-           email = "add@email.com"))
+           email = "jbourak@pm.me"))
 Description: This is a semi-tidied data obtained from multiple sources including the City of Vancouver's Open Data Portal.
 License: CC0
 URL: https://github.com/UBC-MDS/datateachr

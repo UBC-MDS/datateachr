@@ -10,7 +10,7 @@
 
 *Pronounced “Data Teacher”*
 
-The goal of datateachr is to provide an easy way to access open source
+The goal of `datateachr` is to provide an easy way to access open source
 data for educational purposes. This is semi-tidied data obtained from
 multiple sources included the City of Vancouver’s Open Data Portal.
 
@@ -41,15 +41,17 @@ library(datateachr)
 browseVignettes("datateachr")
 ```
 
-This data was acquired courtesy of [The city of Vancouver’s Open Data
+This data was acquired courtesy of [The City of Vancouver’s Open Data
 Portal](https://opendata.vancouver.ca/pages/home/).
 
-This package contains (currently) 2 dataset :
+This package contains (currently) 3 datasets :
 
   - `vancouver_trees`: This dataset is currently still being updated by
     the city. It currently has 146611 rows.
   - `steam_games`: This dataset contains all the games available for
     download on Steam from 2019-06-16. It currently has 40833 rows.
+  - `building_permits`: This dataset is updated monthly for the current
+    year (prior years are static). It currently has 20680 rows.
 
 ## Example
 
@@ -74,8 +76,8 @@ vancouver_trees %>% filter(genus_name == "ACER") %>%
 #> # … with 14 more variables: common_name <chr>, assigned <chr>,
 #> #   root_barrier <chr>, plant_area <chr>, on_street_block <dbl>,
 #> #   on_street <chr>, neighbourhood_name <chr>, street_side_name <chr>,
-#> #   height_range_id <dbl>, diameter <chr>, curb <chr>, date_planted <date>,
-#> #   longitude <dbl>, latitude <dbl>
+#> #   height_range_id <dbl>, diameter <chr>, curb <chr>,
+#> #   date_planted <date>, longitude <dbl>, latitude <dbl>
 ```
 
 ## License
@@ -94,9 +96,10 @@ citation("datateachr")
 #> 
 #> To cite package 'datateachr' in publications use:
 #> 
-#>   Hayley Boyce and Jordan Bourak (2020). datateachr: Data collected to
-#>   use for teaching at the University of British Columbia. R package
-#>   version 0.0.0.1. https://github.com/UBC-MDS/datateachr
+#>   Hayley Boyce and Jordan Bourak (2020). datateachr: Data
+#>   collected to use for teaching at the University of British
+#>   Columbia. R package version 0.0.0.1.
+#>   https://github.com/UBC-MDS/datateachr
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
