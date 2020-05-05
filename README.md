@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-<img src="logo.svg" width="200" align="right" /> <!-- badges: end -->
+<img src="logo.png" width="200" align="right" /> <!-- badges: end -->
 
 *Pronounced “Data Teacher”*
 
