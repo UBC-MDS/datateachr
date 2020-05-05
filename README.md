@@ -44,12 +44,14 @@ browseVignettes("datateachr")
 This data was acquired courtesy of [The City of Vancouver’s Open Data
 Portal](https://opendata.vancouver.ca/pages/home/).
 
-This package contains (currently) 2 dataset :
+This package contains (currently) 3 datasets :
 
   - `vancouver_trees`: This dataset is currently still being updated by
     the city. It currently has 146611 rows.
   - `steam_games`: This dataset contains all the games available for
     download on Steam from 2019-06-16. It currently has 40833 rows.
+  - `building_permits`: This dataset is updated monthly for the current
+    year (prior years are static). It currently has 20680 rows.
 
 ## Example
 
