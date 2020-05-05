@@ -10,7 +10,7 @@
 *Pronounced “Data Teacher”*
 
 The goal of datateachr is to provide an easy way to access open source
-data for the purpose of teaching. This is semi-tidied data obtained from
+data for educational purposes. This is semi-tidied data obtained from
 multiple sources included the City of Vancouver’s Open Data Portal.
 
 ## Installation
