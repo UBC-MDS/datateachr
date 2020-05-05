@@ -1,23 +1,22 @@
 ---
-output: github_document
+title: "datateachr"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to datateachr}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
 library(datateachr)
+
 ```
 
 # datateachr
 
 <!-- badges: start -->
-<img src="logo.svg" width="200" align="right" />
+<img src="../logo.svg" width="200" align="right" />
 <!-- badges: end -->
 
 _Pronounced "Data Teacher"_
@@ -86,3 +85,4 @@ Run this command to get info on how to cite this package.
 ```{r warning = FALSE}
 citation("datateachr")
 ```
+
