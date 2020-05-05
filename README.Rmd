@@ -17,7 +17,7 @@ library(datateachr)
 # datateachr
 
 <!-- badges: start -->
-<img src="logo.png" width="200" align="right" />
+<img src="static/logo.png" width="200" align="right" />
 <!-- badges: end -->
 
 _Pronounced "Data Teacher"_
@@ -54,7 +54,8 @@ This data was acquired courtesy of [The city of Vancouver's Open Data Portal](ht
 
 This Package contains (currently) 1 dataset :
 
-  * `vancouver_trees`: This dataset is currently still being updated by the city as it's still the current year. It currently has `r nrow(vancouver_trees)` rows. 
+  * `vancouver_trees`: This dataset is currently still being updated by the city. It currently has `r nrow(vancouver_trees)` rows. 
+  * `steam_games`: This dataset contains all the games available for download on Steam from 2019-06-16. It currently has `r nrow(steam_games)` rows. 
  
 ## Example
 
@@ -67,22 +68,4 @@ library(datateachr)
 
 vancouver_trees %>% filter(genus_name == "ACER") %>% 
   arrange(desc(diameter)) %>% head()
-```
-
-or find out the summary statistics of the data:
-
-```{r vancouver_trees}
-summary(vancouver_trees)
-```
-
-## License
-
-`datateachr`'s data is curated from multiple sources with many of the datasets aquired from the City of Vancouver Open Data Portal that uses the Open Government Licence - Vancouver license. See their [terms of use](https://opendata.vancouver.ca/pages/licence/). 
-
-## Citation
-
-Run this command to get info on how to cite this package.
-
-```{r warning = FALSE}
-citation("datateachr")
 ```

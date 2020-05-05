@@ -16,7 +16,7 @@ library(datateachr)
 # datateachr
 
 <!-- badges: start -->
-<img src="../logo.png" width="200" align="right" />
+<img src="../static/logo.png" width="200" align="right" />
 <!-- badges: end -->
 
 _Pronounced "Data Teacher"_
@@ -53,7 +53,9 @@ This data was acquired courtesy of [The city of Vancouver's Open Data Portal](ht
 
 This Package contains (currently) 1 dataset :
 
-  * `vancouver_trees`: This dataset is currently still being updated by the city as it's still the current year. It currently has `r nrow(vancouver_trees)` rows. 
+  * `vancouver_trees`: This dataset is currently still being updated by the city. It currently has `r nrow(vancouver_trees)` rows. 
+  * `steam_games`: This dataset contains all the games available for download on Steam from 2019-06-16. It currently has `r nrow(steam_games)` rows. 
+  
  
 ## Example
 
