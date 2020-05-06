@@ -1,5 +1,8 @@
 #' Vancouver Building Permits
-#' This is data that the City of Vancouver has released containing information about building permits they have issued since 2017.
+#'
+#' This is data that the City of Vancouver has released containing information
+#' about building permits they have issued since 2017. The data is updated
+#' monthly for the current year (prior years are static.)
 #'
 #' @source <https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/>, downloaded 2020-05-05
 #' @format A data frame with columns:

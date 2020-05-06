@@ -3,8 +3,7 @@
 \docType{data}
 \name{building_permits}
 \alias{building_permits}
-\title{Vancouver Building Permits
-This is data that the city of Vancouver has released containing information of building permits issued by the City of Vancouver, since 2017.}
+\title{Vancouver Building Permits}
 \format{
 A data frame with columns:
 \describe{
@@ -31,8 +30,9 @@ A data frame with columns:
 building_permits
 }
 \description{
-Vancouver Building Permits
-This is data that the city of Vancouver has released containing information of building permits issued by the City of Vancouver, since 2017.
+This is data that the City of Vancouver has released containing information
+about building permits they have issued since 2017. The data is updated
+monthly for the current year (prior years are static.)
 }
 \examples{
 building_permits
