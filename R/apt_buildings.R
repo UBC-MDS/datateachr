@@ -1,3 +1,4 @@
+#' Toronto Apartment Building Registration
 #'
 #' This dataset contains Toronto apartment building information for buildings
 #' that are registered in the Apartment Building Standard (ABS) program. The
