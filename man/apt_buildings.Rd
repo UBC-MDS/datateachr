@@ -3,11 +3,7 @@
 \docType{data}
 \name{apt_buildings}
 \alias{apt_buildings}
-\title{This dataset contains Toronto apartment building information for buildings
-that are registered in the Apartment Building Standard (ABS) program. The
-information was collected from building owners/managers during the initial
-registration process. The data is refreshed monthly. Columns with ALL NA
-values have been excluded.}
+\title{Toronto Apartment Building Registration}
 \format{
 A data frame with columns:
 \describe{

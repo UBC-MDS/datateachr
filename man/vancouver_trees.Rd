@@ -3,8 +3,7 @@
 \docType{data}
 \name{vancouver_trees}
 \alias{vancouver_trees}
-\title{Vancouver Street Trees
-This is data that the city of Vancouver has collected on the trees in Vancouver.}
+\title{Vancouver Street Trees}
 \format{
 A data frame with columns:
 \describe{
@@ -37,8 +36,9 @@ A data frame with columns:
 vancouver_trees
 }
 \description{
-Vancouver Street Trees
-This is data that the city of Vancouver has collected on the trees in Vancouver.
+This dataset includes information about public trees in the City of
+Vancouver. The data is updated weekly, but tree attributes are
+rarely updated.
 }
 \examples{
 vancouver_trees
