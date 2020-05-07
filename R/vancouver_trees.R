@@ -1,5 +1,8 @@
 #' Vancouver Street Trees
-#' This is data that the city of Vancouver has collected on the trees in Vancouver.
+#'
+#' This dataset includes information about public trees in the City of
+#' Vancouver. The data is updated weekly, but tree attributes are
+#' rarely updated.
 #'
 #' @source <https://opendata.vancouver.ca/explore/dataset/street-trees/information/>, downloaded 2020-05-04
 #' @format A data frame with columns:
