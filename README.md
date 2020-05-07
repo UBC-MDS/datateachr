@@ -41,17 +41,22 @@ library(datateachr)
 browseVignettes("datateachr")
 ```
 
-This data was acquired courtesy of [The City of Vancouver’s Open Data
-Portal](https://opendata.vancouver.ca/pages/home/).
+This package contains (currently) 5 datasets :
 
-This package contains (currently) 3 datasets :
-
-  - `vancouver_trees`: This dataset is currently still being updated by
-    the city. It currently has 146611 rows.
-  - `steam_games`: This dataset contains all the games available for
-    download on Steam from 2019-06-16. It currently has 40833 rows.
-  - `building_permits`: This dataset is updated monthly for the current
-    year (prior years are static). It currently has 20680 rows.
+  - `apt_buildings` : Acquired courtesy of [The City of Toronto’s Open
+    Data Portal](https://open.toronto.ca/). It currently has 3455 rows.
+  - `building_permits` : Acquired courtesy of [The City of Vancouver’s
+    Open Data Portal](https://opendata.vancouver.ca/pages/home/). It
+    currently has 20680 rows.
+  - `parking_meters` : Acquired courtesy of [The City of Vancouver’s
+    Open Data Portal](https://opendata.vancouver.ca/pages/home/). It
+    currently has 10032 rows.
+  - `steam_games`: Acquired courtesy of
+    [Kaggle](https://www.kaggle.com/trolukovich/steam-games-complete-dataset%202019-06-16).
+    It currently has 40833 rows.
+  - `vancouver_trees`: Acquired courtesy of [The City of Vancouver’s
+    Open Data Portal](https://opendata.vancouver.ca/pages/home/). It
+    currently has 146611 rows.
 
 ## Example
 
