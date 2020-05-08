@@ -7,3 +7,4 @@
 ^data-raw$
 ^static$
 ^\.github$
+^codecov\.yml$

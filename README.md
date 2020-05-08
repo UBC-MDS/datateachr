@@ -8,7 +8,8 @@
 [![R build
 status](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)](https://github.com/UBC-MDS/datateachr/actions)
 
-[![codecov](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr)
+[![Codecov test
+coverage](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr?branch=master)
 <!-- badges: end -->
 
 *Pronounced “Data Teacher”*
