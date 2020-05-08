@@ -1,14 +1,11 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # datateachr
 
 <!-- badges: start -->
 
 <img src="static/logo.png" width="200" align="right" />
 
-[![R build
-status](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)](https://github.com/UBC-MDS/datateachr/actions)
+![R-CMD-check](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)
 [![codecov](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr)
 
 <!-- badges: end -->
