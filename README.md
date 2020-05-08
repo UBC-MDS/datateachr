@@ -1,13 +1,10 @@
 
+<img src="static/logo.png" width="150" align="right" />
+
 # datateachr
-
-<!-- badges: start -->
-
-<img src="static/logo.png" width="200" align="right" />
 
 [![R build
 status](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)](https://github.com/UBC-MDS/datateachr/actions)
-
 [![Codecov test
 coverage](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr?branch=master)
 <!-- badges: end -->
