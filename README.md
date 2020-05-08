@@ -6,11 +6,9 @@
 <img src="static/logo.png" width="200" align="right" />
 
 [![R build
-status](https://github.com/UBC-MDS//workflows/R-CMD-check/badge.svg)](https://github.com/UBC-MDS/datateachr/actions)
+status](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)](https://github.com/UBC-MDS/datateachr/actions)
 
 [![codecov](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr)
-<!-- badges: end -->
-
 <!-- badges: end -->
 
 *Pronounced “Data Teacher”*
