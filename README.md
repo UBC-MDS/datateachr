@@ -6,6 +6,11 @@
 <!-- badges: start -->
 
 <img src="static/logo.png" width="200" align="right" />
+
+[![codecov](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr)
+
+[![R build
+status](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)](https://github.com/UBC-MDS/datateachr/actions)
 <!-- badges: end -->
 
 *Pronounced “Data Teacher”*
@@ -72,17 +77,17 @@ vancouver_trees %>% filter(genus_name == "ACER") %>%
 #> # A tibble: 6 x 20
 #>   tree_id civic_number std_street genus_name species_name cultivar_name
 #>     <dbl>        <dbl> <chr>      <chr>      <chr>        <chr>        
-#> 1  221478         3673 MAIN ST    ACER       FREEMANI   X AUTUMN BLAZE 
-#> 2  129179         2859 TRIUMPH ST ACER       FREEMANI   X MORGAN       
-#> 3  121664         2850 YUKON ST   ACER       PSEUDOPLATA… <NA>         
-#> 4  149686         5007 WINDSOR ST ACER       CAMPESTRE    <NA>         
-#> 5  156993         1596 E 49TH AV  ACER       PLATANOIDES  COLUMNARE    
-#> 6  161193         2797 GRANT ST   ACER       CAMPESTRE    <NA>         
+#> 1  149285         1906 W 14TH AV  ACER       SPECIES      <NA>         
+#> 2   51001          849 W 60TH AV  ACER       SACCHARINUM  <NA>         
+#> 3   84751         8250 HUDSON ST  ACER       PLATANOIDES  <NA>         
+#> 4   54498         6611 ADERA ST   ACER       PLATANOIDES  SCHWEDLERI   
+#> 5   78588         1333 W GEORGIA… ACER       RUBRUM       <NA>         
+#> 6  220644         1438 RICHARDS … ACER       PLATANOIDES  EMERALD QUEEN
 #> # … with 14 more variables: common_name <chr>, assigned <chr>,
 #> #   root_barrier <chr>, plant_area <chr>, on_street_block <dbl>,
 #> #   on_street <chr>, neighbourhood_name <chr>, street_side_name <chr>,
-#> #   height_range_id <dbl>, diameter <chr>, curb <chr>,
-#> #   date_planted <date>, longitude <dbl>, latitude <dbl>
+#> #   height_range_id <dbl>, diameter <dbl>, curb <chr>, date_planted <date>,
+#> #   longitude <dbl>, latitude <dbl>
 ```
 
 ## License
@@ -101,10 +106,9 @@ citation("datateachr")
 #> 
 #> To cite package 'datateachr' in publications use:
 #> 
-#>   Hayley Boyce and Jordan Bourak (2020). datateachr: Data
-#>   collected to use for teaching at the University of British
-#>   Columbia. R package version 0.0.0.1.
-#>   https://github.com/UBC-MDS/datateachr
+#>   Hayley Boyce and Jordan Bourak (2020). datateachr: Data collected to
+#>   use for teaching at the University of British Columbia. R package
+#>   version 0.0.0.1. https://github.com/UBC-MDS/datateachr
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
