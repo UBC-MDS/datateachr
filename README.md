@@ -7,7 +7,6 @@
 
 ![R-CMD-check](https://github.com/UBC-MDS/datateachr/workflows/R-CMD-check/badge.svg)
 [![codecov](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/datateachr)
-
 <!-- badges: end -->
 
 *Pronounced “Data Teacher”*
