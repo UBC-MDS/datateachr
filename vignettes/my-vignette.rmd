@@ -16,7 +16,7 @@ library(datateachr)
 # datateachr
 
 <!-- badges: start -->
-<img src="../static/logo.png" width="200" align="right" />
+<img src="https://github.com/UBC-MDS/datateachr/raw/master/static/logo.png" width="200" align="right" />
 <!-- badges: end -->
 
 _Pronounced "Data Teacher"_
