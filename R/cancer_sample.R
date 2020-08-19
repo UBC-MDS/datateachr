@@ -6,10 +6,11 @@
 #' @format A data frame with columns:
 #' \describe{
 #'  \item{ID}{ID number of observation.}
-#'  \item{diagnosis}{The ultimate diagnosis of the breast mass ("M" = malignant, "B" = benign)}
+#'  \item{diagnosis}{The ultimate diagnosis of the breast mass ("M" = malignant, "B" = benign).}
 #'  \item{radius_mean}{Mean radius of nuclei present in sample image.}
 #'  \item{texture_mean}{Mean texture of nuclei present in sample image.}
 #'  \item{perimeter_mean}{Mean perimeter of nuclei present in sample image.}
+#'  \item{area_mean}{Mean area of nuclei present in sample image.}
 #'  \item{smoothness_mean}{Mean smoothness of nuclei present in sample image.}
 #'  \item{compactness_mean}{Mean compactness of nuclei present in sample image.}
 #'  \item{concavity_mean}{Mean concavity of nuclei present in sample image.}
@@ -19,6 +20,7 @@
 #'  \item{radius_se}{Standard error of radius of nuclei present in sample image.}
 #'  \item{texture_se}{Standard error of texture of nuclei present in sample image.}
 #'  \item{perimeter_se}{Standard error of perimeter of nuclei present in sample image.}
+#'  \item{area_se}{Standard error of area of nuclei present in sample image.}
 #'  \item{smoothness_se}{Standard error of smoothness of nuclei present in sample image.}
 #'  \item{compactness_se}{Standard error of compactness of nuclei present in sample image.}
 #'  \item{concavity_se}{Standard error of concavity of nuclei present in sample image.}
@@ -28,6 +30,7 @@
 #'  \item{radius_worst}{"Worst" or largest radius of nuclei present in sample image.}
 #'  \item{texture_worst}{"Worst" or largest texture of nuclei present in sample image.}
 #'  \item{perimeter_worst}{"Worst" or largest perimeter of nuclei present in sample image.}
+#'  \item{area_worst}{"Worst" or largest area of nuclei present in sample image.}
 #'  \item{smoothness_worst}{"Worst" or largest smoothness of nuclei present in sample image.}
 #'  \item{compactness_worst}{"Worst" or largest compactness of nuclei present in sample image.}
 #'  \item{concavity_worst}{"Worst" or largest concavity of nuclei present in sample image.}
