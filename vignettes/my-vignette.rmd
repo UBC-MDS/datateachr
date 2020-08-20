@@ -10,51 +10,32 @@ vignette: >
 ```{r, echo = FALSE, message = FALSE}
 knitr::opts_chunk$set(collapse = T, comment = "#>")
 library(datateachr)
-
 ```
 
-# datateachr
-
-<!-- badges: start -->
-<img src="https://github.com/UBC-MDS/datateachr/raw/master/static/logo.png" width="200" align="right" />
-<!-- badges: end -->
-
-_Pronounced "Data Teacher"_
-
-The goal of `datateachr` is to provide an easy way to access open source data for educational purposes. This is semi-tidied data obtained from multiple sources included the City of Vancouver's Open Data Portal.
+The goal of `datateachr` is to provide an easy way to access open source data for educational purposes. It contains several semi-tidied data sets obtained from multiple sources.
 
 ## Installation
 
 You can install the development version from [GitHub](https://github.com/UBC-MDS/datateachr) with:
 
-```{r eval=FALSE}
-install.packages("devtools")
-devtools::install_github("UBC-MDS/datateachr")
-```
+## Data
 
-### Vignette 
-You may also access this information through our vignette. First use this command for installation: 
-
-```{r eval=FALSE}
-install.packages("devtools")
-devtools::install_github("UBC-MDS/datateachr", build_vignettes = TRUE)
-```
-
-And to read the vignette use: 
-
-```{r eval=FALSE}
-library(datateachr)
-browseVignettes("datateachr")
-```
-
-
-This package contains (currently) 5 datasets :
+This package currently contains the following data sets:
   
-  * `apt_buildings` : Acquired courtesy of [The City of Toronto's Open Data Portal](https://open.toronto.ca/). It currently has `r nrow(apt_buildings)` rows.
-  * `building_permits` : Acquired courtesy of [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/pages/home/). It currently has `r nrow(building_permits)` rows. 
-  * `parking_meters` : Acquired courtesy of [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/pages/home/). It currently has `r nrow(parking_meters)` rows.
-  * `steam_games`: Acquired courtesy of [Kaggle](https://www.kaggle.com/trolukovich/steam-games-complete-dataset 2019-06-16). It currently has `r nrow(steam_games)` rows.
-  * `vancouver_trees`: Acquired courtesy of [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/pages/home/). It currently has `r nrow(vancouver_trees)` rows. 
+  - `apt_buildings`: Acquired courtesy of [The City of Toronto's Open Data Portal](https://open.toronto.ca/). It currently has `r nrow(apt_buildings)` rows and `r ncol(apt_buildings)` columns.
+  
+  - `building_permits`: Acquired courtesy of [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/pages/home/). It currently has `r nrow(building_permits)` rows and `r ncol(building_permits)` columns.
+  
+  - `cancer_sample`: Acquired courtesy of [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). It currently has `r nrow(cancer_sample)` rows and `r ncol(cancer_sample)` columns.
+  
+  - `flow_sample`: Acquired courtesy of [The Government of Canada's Historical Hydrometric Database](https://wateroffice.ec.gc.ca/mainmenu/historical_data_index_e.html). It currently has `r nrow(flow_sample)` rows and `r ncol(flow_sample)` columns.
+  
+  - `parking_meters`: Acquired courtesy of [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/pages/home/). It currently has `r nrow(parking_meters)` rows  and `r ncol(parking_meters)` columns.
+  
+  - `steam_games`: Acquired courtesy of [Kaggle](https://www.kaggle.com/trolukovich/steam-games-complete-dataset). It currently has `r nrow(steam_games)` rows and `r ncol(steam_games)` columns.
+  
+  - `vancouver_trees`: Acquired courtesy of [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/pages/home/). It currently has `r nrow(vancouver_trees)` rows and `r ncol(vancouver_trees)` columns.
+
  
 ## Example
 
@@ -65,25 +46,17 @@ library(dplyr)
 library(datateachr)
 
 
-vancouver_trees %>% filter(genus_name == "ACER") %>% 
-  arrange(desc(diameter)) %>% head()
+vancouver_trees %>%
+  filter(genus_name == "ACER") %>% 
+  arrange(desc(diameter)) %>%
+  head()
 ```
 
-or find out the summary statistics of the data:
-
-```{r vancouver_trees}
-summary(vancouver_trees)
-```
-
-## License
-
-`datateachr`'s data is curated from multiple sources with many of the datasets aquired from the City of Vancouver Open Data Portal that uses the Open Government Licence - Vancouver license. See their [terms of use](https://opendata.vancouver.ca/pages/licence/). 
 
 ## Citation
 
-Run this command to get info on how to cite this package.
+Run this command to get information about how to cite this package.
 
 ```{r warning = FALSE}
 citation("datateachr")
 ```
-
