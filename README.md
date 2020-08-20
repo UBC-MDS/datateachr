@@ -12,8 +12,8 @@ coverage](https://codecov.io/gh/UBC-MDS/datateachr/branch/master/graph/badge.svg
 *Pronounced “Data Teacher”*
 
 The goal of `datateachr` is to provide an easy way to access open source
-data for educational purposes. This is semi-tidied data obtained from
-multiple sources included the City of Vancouver’s Open Data Portal.
+data for educational purposes. It contains several semi-tidied data sets
+obtained from multiple sources.
 
 ## Installation
 
@@ -42,22 +42,38 @@ library(datateachr)
 browseVignettes("datateachr")
 ```
 
-This package contains (currently) 5 datasets :
+## Data
 
-  - `apt_buildings` : Acquired courtesy of [The City of Toronto’s Open
-    Data Portal](https://open.toronto.ca/). It currently has 3455 rows.
-  - `building_permits` : Acquired courtesy of [The City of Vancouver’s
+This package currently contains the following data sets:
+
+  - `apt_buildings`: Acquired courtesy of [The City of Toronto’s Open
+    Data Portal](https://open.toronto.ca/). It currently has 3455 rows
+    and 37 columns.
+
+  - `building_permits`: Acquired courtesy of [The City of Vancouver’s
     Open Data Portal](https://opendata.vancouver.ca/pages/home/). It
-    currently has 20680 rows.
-  - `parking_meters` : Acquired courtesy of [The City of Vancouver’s
-    Open Data Portal](https://opendata.vancouver.ca/pages/home/). It
-    currently has 10032 rows.
+    currently has 20680 rows and 14 columns.
+
+  - `cancer_sample`: Acquired courtesy of [UCI Machine Learning
+    Repository](https://archive.ics.uci.edu/ml/index.php). It currently
+    has 569 rows and 32 columns.
+
+  - `flow_sample`: Acquired courtesy of [The Government of Canada’s
+    Historical Hydrometric
+    Database](https://wateroffice.ec.gc.ca/mainmenu/historical_data_index_e.html).
+    It currently has 218 rows and 7 columns.
+
+  - `parking_meters`: Acquired courtesy of [The City of Vancouver’s Open
+    Data Portal](https://opendata.vancouver.ca/pages/home/). It
+    currently has 10032 rows and 22 columns.
+
   - `steam_games`: Acquired courtesy of
-    [Kaggle](https://www.kaggle.com/trolukovich/steam-games-complete-dataset%202019-06-16).
-    It currently has 40833 rows.
+    [Kaggle](https://www.kaggle.com/trolukovich/steam-games-complete-dataset).
+    It currently has 40833 rows and 21 columns.
+
   - `vancouver_trees`: Acquired courtesy of [The City of Vancouver’s
     Open Data Portal](https://opendata.vancouver.ca/pages/home/). It
-    currently has 146611 rows.
+    currently has 146611 rows and 20 columns.
 
 ## Example
 
@@ -68,8 +84,10 @@ library(dplyr)
 library(datateachr)
 
 
-vancouver_trees %>% filter(genus_name == "ACER") %>% 
-  arrange(desc(diameter)) %>% head()
+vancouver_trees %>%
+  filter(genus_name == "ACER") %>% 
+  arrange(desc(diameter)) %>%
+  head()
 #> # A tibble: 6 x 20
 #>   tree_id civic_number std_street genus_name species_name cultivar_name
 #>     <dbl>        <dbl> <chr>      <chr>      <chr>        <chr>        
@@ -86,16 +104,9 @@ vancouver_trees %>% filter(genus_name == "ACER") %>%
 #> #   longitude <dbl>, latitude <dbl>
 ```
 
-## License
-
-`datateachr`’s data is curated from multiple sources with many of the
-datasets aquired from the City of Vancouver Open Data Portal that uses
-the Open Government Licence - Vancouver license. See their [terms of
-use](https://opendata.vancouver.ca/pages/licence/).
-
 ## Citation
 
-Run this command to get info on how to cite this package.
+Run this command to get information about how to cite this package.
 
 ``` r
 citation("datateachr")
