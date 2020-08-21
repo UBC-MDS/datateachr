@@ -106,7 +106,7 @@ vancouver_trees %>%
 
 ## Citation
 
-Run this command to get information about how to cite this package.
+Run this command to get information about how to cite this package:
 
 ``` r
 citation("datateachr")
@@ -115,7 +115,7 @@ citation("datateachr")
 #> 
 #>   Hayley Boyce and Jordan Bourak (2020). datateachr: Data collected to
 #>   use for teaching at the University of British Columbia. R package
-#>   version 0.0.0.1. https://github.com/UBC-MDS/datateachr
+#>   version 0.2.1. https://github.com/UBC-MDS/datateachr
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
@@ -124,7 +124,7 @@ citation("datateachr")
 #> Columbia},
 #>     author = {Hayley Boyce and Jordan Bourak},
 #>     year = {2020},
-#>     note = {R package version 0.0.0.1},
+#>     note = {R package version 0.2.1},
 #>     url = {https://github.com/UBC-MDS/datateachr},
 #>   }
 ```

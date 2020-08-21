@@ -1,6 +1,6 @@
 Package: datateachr
 Title: Data collected to use for teaching at the University of British Columbia
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(person(given = "Hayley",
            family = "Boyce",
            role = c("aut", "cre"),
